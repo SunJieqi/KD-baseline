@@ -55,7 +55,8 @@ ython train.py \
 
 Or Running the shell script `train.sh` will train and evaluate the model with hyperparameters matching our paper. Explanations for these hyperparameters can be found in `trainers/trainer.py`.
 
-For the pretrained knowledges, you can find from **pretrained_knowledges** directly, and modified the ***pretrained_knowledge_path***  in train.py
+For the pretrained knowledges, you can find from **pretrained_knowledges** (Baidu：pretrained_knowledges
+ https://pan.baidu.com/s/1P9Gm1UqIut_29dlunGyYJg?pwd=tpgq pw: tpgq) directly, and modified the ***pretrained_knowledge_path***  in train.py
 
 After training concludes, test accuracy and 95% confidence interval are logged in the std output and `*.log` file. To re-evaluate a trained model, run `test.py`, setting the internal `model_path` variable to the saved model `*.pth` you want to evaluate.
 
